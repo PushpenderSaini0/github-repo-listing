@@ -20,7 +20,7 @@ const getIconClass = (lang) => {
     }
 }
 const getRepoData = async () => {
-    const APIURL = encodeURI(`http://${location.host}/api/repo/${usernameBox.value}/${pageOffset}`);
+    const APIURL = encodeURI(`${location.protocol}//${location.host}/api/repo/${usernameBox.value}/${pageOffset}`);
     const response = await fetch(APIURL);
     if (response.status != 200) return { "error": true, "message": "Unknown Server Error" }
     const data = await response.json();
