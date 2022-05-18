@@ -2,7 +2,7 @@
 
 a simple app to show repo of a user
 
-Live Demo Here
+Live Demo [Here](http://3.109.62.198:8080/)
 
 ## Run on local machine
 
@@ -33,4 +33,11 @@ sudo docker build -t my-github-repo-listing .
 
 sudo docker run --rm -p 8080:8080 -it my-github-repo-listing
 ```
+
+### DEMO
+![image](https://user-images.githubusercontent.com/54404738/169037607-38c3348d-cc3a-4bd1-8675-14555f918c27.png)
+
+
+
+
 
