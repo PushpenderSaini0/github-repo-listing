@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #202124;
+    color: #fff;
+}
+
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    border-bottom: 1px solid grey;
+    min-height: 15vh;
+}
+
+.repolist {
+    flex-direction: row;
+    item-margin: 20px;
+}
+
+.pageList {
+    flex-direction: row;
+    item-margin: 4px;
+}
+
+.repo {
+    border: 1px solid grey;
+    margin: 10px;
+    min-width: 350px;
+    max-width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 5px;
+}
+
+p {
+    padding: 10px;
+    min-width: 150px;
+}
+h2 {
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+    background: #fff;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+.page-button {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #6c757d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.page-button-active {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #007bff;
+    color: #fff;
+}
+
+.disable {
+    background: #6c757d;
+    color: #fff;
+}
+
+.enable {
+    background: #007bff;
+    cursor: pointer;
+    color: #fff;
+}
+
+.language-card {
+    background: #007bff;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
