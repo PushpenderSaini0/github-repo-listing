@@ -21,3 +21,16 @@ npm run build && npm start
 ```bash
 npm run dev
 ```
+
+## Run on local machine (Using Docker)
+
+```bash
+git clone https://github.com/PushpenderSaini0/github-repo-listing.git
+
+cd github-repo-listing
+
+sudo docker build -t my-github-repo-listing .
+
+sudo docker run --rm -p 8080:8080 -it my-github-repo-listing
+```
+
