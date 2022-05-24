@@ -2,8 +2,6 @@
 
 a simple app to show repo of a user
 
-Live Demo [Here](http://3.109.62.198:8080/)
-
 ## Run on local machine
 
 ```bash
